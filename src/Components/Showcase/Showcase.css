@@ -1,0 +1,37 @@
+.featured{
+    padding: 25px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.description h2{
+    font-family: 'Chocolates Trial Regular';
+    letter-spacing: 1px;
+}
+.description p{
+    font-family: 'Chocolates Trial Regular';
+    font-size: medium;
+    letter-spacing: 1px;
+}
+.description a{
+    color: #ff0175;
+}
+#born-on-instagram{
+    color: #ff0175;
+}
+
+/* responsive */
+@media (max-width: 767px) {
+    .featured{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .certificate{
+        max-width: 100%;
+    }
+    .boi-certificate{
+        max-width: 80%;
+    }
+
+}

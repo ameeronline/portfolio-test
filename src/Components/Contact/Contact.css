@@ -1,0 +1,77 @@
+.contact-section{
+    width: 100%;
+    background-color: #181818;
+    text-align: center;
+}
+.contact-section h2{
+    font-family: 'Thirty Sans Bold DEMO' ;
+    
+}
+.contact{
+    padding: 25px;
+    margin-top: 25px;
+}
+.contact-form{
+    background-color: #181818;
+}
+.contact-form h2{
+    font-family: 'Chocolates Trial Regular';
+    letter-spacing: 1px;
+}
+.contact-note{
+    color: #e2b64d;
+}
+.contact-form p{
+    font-family: 'Chocolates Trial Regular';
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.form input{
+    width: 80%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color: #181818;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Chocolates Trial Regular';
+    letter-spacing: 1px;
+}
+.form textarea{
+    width: 80%;
+    max-width: 80%;
+    min-width: 80%;
+    padding: 20px;
+    border: none;
+    background-color: #181818;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Chocolates Trial Regular';
+    letter-spacing: 1px;
+}
+.form button{
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Chocolates Trial Regular';
+    font-size: 16px;
+}
+.send-button{
+    cursor: pointer;
+}
+.form hr{
+    width: 80%;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+}

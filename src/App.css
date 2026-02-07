@@ -1,0 +1,27 @@
+/* Headline Font */
+@font-face {
+  font-family: 'my-standard';
+  src: url('/public/fonts/my-standard.ttf');
+}
+/* Signature Quote Font */
+@font-face {
+  font-family: 'Hand of Jun';
+  src: url('/public/fonts/Hand of Jun.otf');
+}
+/* Section Font Eg. Technology Skills */
+@font-face {
+  font-family: 'Thirty Sans Bold DEMO' ;
+  src: url('/public/fonts/Thirty Sans Bold DEMO.ttf');
+}
+/* Nav Links and Other Description Font */
+@font-face {
+  font-family: 'Chocolates Trial Regular';
+  src: url('/public/fonts/TT Chocolates Trial Regular.otf');
+}
+
+body{
+  margin: 0;
+  background-color: #252525;
+  color: #fff;
+  scroll-behavior: smooth;
+}

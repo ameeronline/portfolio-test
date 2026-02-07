@@ -1,0 +1,66 @@
+.services-section{
+    width: 100%;
+    background-color: #252525;
+    margin-top: 25px;
+    text-align: center;
+}
+.services-section h2{
+    font-family: 'Thirty Sans Bold DEMO' ;
+}
+.services{
+    margin-top: 35px;
+}
+.service{
+    text-align: center;
+}
+.service h3{
+    font-family: 'Chocolates Trial Regular';
+    letter-spacing: 1px;
+    color: #e2b64d;
+}
+.service p{
+    font-family: 'Chocolates Trial Regular';
+    letter-spacing: 1px;
+    max-width: 870px;
+    margin: auto;
+    text-align: center;
+}
+.service hr{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    max-width: 15%;
+    border-color: #e2b64d;
+}
+
+.resume button{
+    width: 30%;
+    margin-top: 35px;
+    font-family: 'Chocolates Trial Regular';
+    font-size: 20px;
+    color: #181818;
+    background-color: #e2b64d;
+    padding: 10px;
+    border: none;
+    outline: inherit;
+}
+.resume button:hover{
+    background-color: #fff;
+    color: #181818;
+}
+.download-button{
+    cursor: pointer;
+}
+
+/* responsive */
+@media (max-width: 767px) {
+    .service p{
+        max-width: 400px;
+    }
+    .service hr{
+        max-width: 30%;
+    }
+    .resume button{
+        width: 50%;
+        font-size: 18px;
+    }
+}

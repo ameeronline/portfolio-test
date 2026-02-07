@@ -1,0 +1,148 @@
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Ensures vertical alignment */
+  z-index: 999;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.form-overlay.closing {
+  opacity: 0;
+}
+
+.heading{
+  font-family: 'Chocolates Trial Regular';
+  letter-spacing: 1.3px;
+}
+
+.form-content {
+  position: relative; /* To position the close button */
+  background: #181818;
+  padding: 50px;
+  width: 680px;
+  height: auto; /* Adjust height to content */
+  text-align: center;
+  font-family: 'Chocolates Trial Regular';
+  border-radius: 8px;
+  animation: slideIn 0.3s ease;
+  box-sizing: border-box;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.form-content{
+  padding: 50px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-content input {
+  width: 80%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color: #181818;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Chocolates Trial Regular';
+    letter-spacing: 1px;
+}
+
+.form-content textarea{
+  width: 80%;
+  max-width: 80%;
+  min-width: 80%;
+  padding: 20px;
+  border: none;
+  background-color: #181818;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Chocolates Trial Regular';
+  letter-spacing: 1px;
+}
+
+.form-buttons button {
+  width: 20%;
+  margin-top: 50px;
+  font-family: 'Chocolates Trial Regular';
+  font-size: 20px;
+  color: #181818;
+  background-color: #e2b64d;
+  padding: 10px;
+  border: none;
+  outline: inherit;
+}
+
+.form-buttons button:hover {
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+/* Close button styling */
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #e2b64d;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #ffffff;
+}
+
+/* Optional: Close button focus outline */
+.close-button:focus {
+  outline: 2px solid #e2b64d;
+}
+
+@media (max-width: 767px) {
+  .form-content {
+    width: 80%;
+    height: auto;
+  }
+  .heading {
+    font-size: 1.0em;
+    letter-spacing: 1.3px;
+  }
+  form{
+    margin-top: 40px;
+  }
+  .form-content input {
+    width: 100%;
+  }
+  
+  .form-buttons button {
+    width: 60%;
+    margin-top: 35px;
+    padding: 6px;
+  }
+}

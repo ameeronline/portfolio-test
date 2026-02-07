@@ -1,0 +1,24 @@
+#skills{
+    scroll-behavior: smooth;
+}
+.skills-section{
+    background-color: #181818;
+    padding: 25px;
+    /* margin-top: 40px; */
+    font-family: 'Thirty Sans Bold DEMO', sans-serif;
+    text-align: center;
+}
+.skills img{
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+}
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    .skills-section{
+        margin-top: 450px;
+    }
+    .skills img {
+        max-height: 250px;
+    }
+}

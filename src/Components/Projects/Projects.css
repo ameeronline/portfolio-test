@@ -1,0 +1,101 @@
+.projects-section h2 {
+    padding: 25px;
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Thirty Sans Bold DEMO', sans-serif;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects h2 {
+    color: #e2b64d;
+    font-family: 'Chocolates Trial Regular';
+    letter-spacing: 1px;
+}
+
+.projects p {
+    color: #fff;
+    padding: 20px;
+    font-family: 'Chocolates Trial Regular';
+    letter-spacing: 1px;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    height: 500px;
+    background-color: #181818;
+}
+
+.projects h5 {
+    font-family: 'Chocolates Trial Regular';
+    letter-spacing: 1px;
+    font-size: small;
+}
+
+.project:hover .project-content {
+    filter: blur(4px);
+    /* Adjust the blur strength based on your preference */
+}
+
+.project:hover .github-button {
+    opacity: 1;
+    transform: translateY(-50%);
+}
+
+.project-content {
+    transition: filter 0.3s ease;
+}
+
+.github-button {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    /* Adjust the distance from the right edge */
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.2);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#view-on-github {
+    position: absolute;
+    text-align: center;
+    bottom: 36%;
+    left: 40%;
+    opacity: 0;
+}
+
+.project:hover #view-on-github {
+    opacity: 1;
+    transform: translateY(-50%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* responsive */
+
+@media (max-width: 767px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+}
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}

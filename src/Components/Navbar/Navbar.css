@@ -1,0 +1,131 @@
+.navbar {
+    width: 100%;
+    height: 250px;
+    background-color: #181818;
+}
+
+.logo {
+    display: block;
+    max-height: 100px;
+    margin: auto;
+}
+
+.headline {
+    width: 100%;
+    text-align: center;
+    color: #ffff;
+    font-family: 'my-standard', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.nav-links {
+    color: #ffff;
+    text-align: center;
+    font-family: 'Chocolates Trial Regular', sans-serif;
+    z-index: 1;
+}
+
+.nav-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #686868;
+}
+
+/* Hamburger menu styles */
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+}
+
+.burger-menu .line {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+#hamburger-1.show .line:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger-1.show .line:nth-child(1) {
+    -webkit-transform: translateY(13px) rotate(45deg);
+    -ms-transform: translateY(13px) rotate(45deg);
+    -o-transform: translateY(13px) rotate(45deg);
+    transform: translateY(13px) rotate(45deg);
+}
+
+#hamburger-1.show .line:nth-child(3) {
+    -webkit-transform: translateY(-13px) rotate(-45deg);
+    -ms-transform: translateY(-13px) rotate(-45deg);
+    -o-transform: translateY(-13px) rotate(-45deg);
+    transform: translateY(-13px) rotate(-45deg);
+}
+
+/* Media query for smaller screens */
+
+@media screen and (max-width: 767px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: #181818;
+        margin-top: -50px;
+        animation: dropDown 0.5s ease-in-out;
+    }
+
+    @keyframes dropDown {
+        from {
+            transform: translateY(-100%);
+        }
+
+        to {
+            transform: translateY(0);
+        }
+    }
+
+    .nav-links a {
+        color: #e2b64d;
+        margin-bottom: 30px;
+        justify-content: space-between;
+        margin-top: 20px;
+        border-radius: 0;
+    }
+
+    .nav-links a:hover {
+        background-color: #181818;
+    }
+
+    .nav-links.show {
+        display: flex;
+        /* Show the navigation links when the menu is open */
+    }
+
+    .burger-menu {
+        display: block;
+        /* Show the burger menu on smaller screens */
+    }
+}
