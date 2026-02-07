@@ -14,12 +14,19 @@ function Events() {
       <div className="right">
         <h4 className="description">
           The Day of Love,
-          <br /> To my favourite person, <br />In my story you'll always be my favourite
-          chapter.
+          <br /> To my favourite person, <br />
+          In my story you'll always be my favourite chapter.
           <br />
           Let's meet again for the first time. <br /> <br />- Happy Valentines
           Day!
         </h4>
+        <div className="valentine-button">
+          <button
+            className="download-button col-12"
+          >
+            Be My Valentine&nbsp;<i class="bi bi-chat-heart"></i>
+          </button>
+        </div>
       </div>
     </div>
   );
