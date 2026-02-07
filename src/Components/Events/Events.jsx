@@ -21,7 +21,7 @@ function Events() {
           Day!
         </h4>
         <div className="valentine-button">
-          <button
+          <button onClick={() => window.open("https://be-my-valentine-phi-sooty.vercel.app/", "_blank")}
             className="download-button col-12"
           >
             Be My Valentine&nbsp;<i class="bi bi-chat-heart"></i>
