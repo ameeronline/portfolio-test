@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-test/static/css/main.ea297e03.css",
-    "main.js": "/portfolio-test/static/js/main.ebbbdbb1.js",
+    "main.js": "/portfolio-test/static/js/main.4ec2bb55.js",
     "static/js/787.a6d47029.chunk.js": "/portfolio-test/static/js/787.a6d47029.chunk.js",
     "static/media/Thirty Sans Bold DEMO.ttf": "/portfolio-test/static/media/Thirty Sans Bold DEMO.c526a5fd611e62d0d845.ttf",
     "static/media/Hand of Jun.otf": "/portfolio-test/static/media/Hand of Jun.fbd44a58c8fc22c3eb8b.otf",
@@ -9,11 +9,11 @@
     "static/media/my-standard.ttf": "/portfolio-test/static/media/my-standard.dc7d68f7f0c21e4bfb36.ttf",
     "index.html": "/portfolio-test/index.html",
     "main.ea297e03.css.map": "/portfolio-test/static/css/main.ea297e03.css.map",
-    "main.ebbbdbb1.js.map": "/portfolio-test/static/js/main.ebbbdbb1.js.map",
+    "main.4ec2bb55.js.map": "/portfolio-test/static/js/main.4ec2bb55.js.map",
     "787.a6d47029.chunk.js.map": "/portfolio-test/static/js/787.a6d47029.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea297e03.css",
-    "static/js/main.ebbbdbb1.js"
+    "static/js/main.4ec2bb55.js"
   ]
 }
