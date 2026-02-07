@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fd92a8ca.css",
+    "main.js": "/portfolio/static/js/main.3b235ef0.js",
+    "static/js/787.a6d47029.chunk.js": "/portfolio/static/js/787.a6d47029.chunk.js",
+    "static/media/Thirty Sans Bold DEMO.ttf": "/portfolio/static/media/Thirty Sans Bold DEMO.c526a5fd611e62d0d845.ttf",
+    "static/media/Hand of Jun.otf": "/portfolio/static/media/Hand of Jun.fbd44a58c8fc22c3eb8b.otf",
+    "static/media/TT Chocolates Trial Regular.otf": "/portfolio/static/media/TT Chocolates Trial Regular.d35682ebb54643e696e6.otf",
+    "static/media/my-standard.ttf": "/portfolio/static/media/my-standard.dc7d68f7f0c21e4bfb36.ttf",
+    "index.html": "/portfolio/index.html",
+    "main.fd92a8ca.css.map": "/portfolio/static/css/main.fd92a8ca.css.map",
+    "main.3b235ef0.js.map": "/portfolio/static/js/main.3b235ef0.js.map",
+    "787.a6d47029.chunk.js.map": "/portfolio/static/js/787.a6d47029.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd92a8ca.css",
+    "static/js/main.3b235ef0.js"
+  ]
+}
