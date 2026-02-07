@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ameeronline.github.io/portfolio",
+  "homepage": "https://ameeronline.github.io/portfolio-test",
   "name": "portfolio-test",
   "build": "vite build",
   "deploy": "gh-pages -d dist",
