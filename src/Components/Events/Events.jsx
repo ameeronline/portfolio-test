@@ -7,7 +7,7 @@ function Events() {
       <div className="left">
         <img
           className="event-photo"
-          src="./photos/event-image-2.jpg"
+          src="./photos/event-image-2.png"
           alt="Valentine special event banner"
         />
       </div>
