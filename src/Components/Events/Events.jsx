@@ -14,8 +14,7 @@ function Events() {
       <div className="right">
         <h4 className="description">
           The Day of Love,
-          <br /> To my favourite person, I wish I wanna go back the time when
-          you first told your name, In my story you'll always be my favourite
+          <br /> To my favourite person, <br />In my story you'll always be my favourite
           chapter.
           <br />
           Let's meet again for the first time. <br /> <br />- Happy Valentines
